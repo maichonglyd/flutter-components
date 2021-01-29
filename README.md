@@ -1,16 +1,19 @@
 # app
 
-A new Flutter project.
+自定义 flutter 组件
 
-## Getting Started
+## dropdown
 
-This project is a starting point for a Flutter application.
+### 下拉选择框
 
-A few resources to get you started if this is your first Flutter project:
+支持单选和多选，通过自定义选项，选择内容。
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[查看使用示例](https://github.com/maichonglyd/flutter-components/blob/master/lib/pages/HomePage.dart)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[查看组件代码](https://github.com/maichonglyd/flutter-components/blob/master/lib/components/common.dart)
+
+- 如果是单选，则返回已选`DropdownItem.value`
+- 如果是多选，则返回已选`DropdownItem.value数组`
+
+![image](https://github.com/maichonglyd/flutter-components/blob/master/components-images/dropdown-s.png)
+![image](https://github.com/maichonglyd/flutter-components/blob/master/components-images/dropdown-m.png)
