@@ -21,7 +21,11 @@ class HomePage extends HookWidget {
               multi: true,
               onChange: (v) => dropdownState.value = v,
             ),
-          )
+          ),
+          FlatButton(
+              color: Colors.green,
+              onPressed: () => Navigator.pushNamed(context, '/chart'),
+              child: text('图表'))
         ],
       ),
     );

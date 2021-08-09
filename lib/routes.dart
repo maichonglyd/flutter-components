@@ -1,14 +1,17 @@
+import 'package:app/pages/ChartPage.dart';
 import 'package:app/pages/HomePage.dart';
 import 'package:flutter/material.dart';
 
 class RouteName {
   static const String home_page = '/';
   static const String video_detail_page = '/video-detail';
+  static const String chart_page = '/chart';
 }
 
 buildRoutes(arg) {
   return {
     RouteName.home_page: (_) => HomePage(),
+    RouteName.chart_page: (_) => ChartPage()
   };
 }
 
